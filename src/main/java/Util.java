@@ -13,6 +13,11 @@ public class Util {
         this.inString = str;
     }
 
+    public void check(String str) {
+        this.inString = str;
+        uniqueChars();
+    }
+
     public String uniqueChars() {
 
         if (inString.length() == 0)
